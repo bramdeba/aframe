@@ -11,6 +11,7 @@ var checkHasPositionalTracking = utils.device.checkHasPositionalTracking;
  */
 module.exports.Component = registerComponent('camera', {
   schema: {
+    aspect: {default: 1.777778},
     active: {default: true},
     far: {default: 10000},
     fov: {default: 80, min: 0},
