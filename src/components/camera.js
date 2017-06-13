@@ -55,7 +55,6 @@ module.exports.Component = registerComponent('camera', {
     this.addHeightOffset(oldData.userHeight);
 
     // Update properties.
-    camera.aspect = data.aspect || (window.innerWidth / window.innerHeight);
     camera.far = data.far;
     camera.fov = data.fov;
     camera.near = data.near;
